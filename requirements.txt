@@ -44,3 +44,5 @@ urllib3==2.2.3
 vader-sentiment==3.2.1.1
 watchdog==4.0.2
 zipp==3.20.2
+setuptools>=58.0
+wheel==0.44.0
