@@ -2,12 +2,6 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.neighbors import NearestNeighbors
-from sklearn.decomposition import TruncatedSVD
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load the saved model from the pickle file
 loaded_model = joblib.load('lgb_model_log.pkl')
